@@ -1,0 +1,102 @@
+h1 {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 45px;
+  color: #42494d;
+  padding: 10px 30px 0 30px;
+  font-weight: 100; }
+
+.header {
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  width: 100%;
+  background-color: white; }
+
+.nav {
+  display: inline-block; }
+
+.nav-sticky-right {
+  position: absolute;
+  right: 20px;
+  top: 20px; }
+
+.language-picker {
+  display: inline-block;
+  padding: 0;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  margin: 0;
+  vertical-align: top; }
+  .language-picker a {
+    text-decoration: none; }
+    .language-picker a li {
+      display: inline-block;
+      padding: 10px; }
+      .language-picker a li:hover {
+        background-color: #EEE; }
+      .language-picker a li .flag {
+        width: auto;
+        height: 20px;
+        display: inline-block;
+        -webkit-filter: opacity(0.2);
+                filter: opacity(0.2); }
+      .language-picker a li .active {
+        -webkit-filter: opacity(1);
+                filter: opacity(1); }
+
+.main-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0 0 0 20px; }
+  .main-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px; }
+    .main-nav li:hover {
+      border-bottom: 2px solid #6CB9EE; }
+    .main-nav li a {
+      text-decoration: none;
+      color: #5a6368; }
+
+.contact {
+  margin-top: 1rem; }
+
+.home-hero-wrapper {
+  width: 100vw;
+  height: calc(100vh - 76px);
+  padding-top: 76px;
+  background-size: cover;
+  -webkit-animation: hero-carousel 10s ease-in-out both infinite;
+          animation: hero-carousel 10s ease-in-out both infinite; }
+
+@-webkit-keyframes hero-carousel {
+  0% {
+    background-image: url(/assets/img/hero-carousel/vaso.JPG); }
+  33% {
+    background-image: url(/assets/img/hero-carousel/garden.jpg); }
+  66% {
+    background-image: url(/assets/img/hero-carousel/peaceful.jpg); }
+  100% {
+    background-image: url(/assets/img/hero-carousel/vaso.JPG); } }
+
+@keyframes hero-carousel {
+  0% {
+    background-image: url(/assets/img/hero-carousel/vaso.JPG); }
+  33% {
+    background-image: url(/assets/img/hero-carousel/garden.jpg); }
+  66% {
+    background-image: url(/assets/img/hero-carousel/peaceful.jpg); }
+  100% {
+    background-image: url(/assets/img/hero-carousel/vaso.JPG); } }
+  .home-hero-wrapper .down-arrow-wrapper {
+    text-align: center;
+    height: 100%;
+    position: relative; }
+    .home-hero-wrapper .down-arrow-wrapper .downarrow {
+      height: 50px;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      position: absolute;
+      bottom: 30px; }
