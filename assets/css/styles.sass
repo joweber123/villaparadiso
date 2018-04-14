@@ -9,10 +9,14 @@ h1
 
   margin: 0
   font-family: 'Pinyon Script', cursive
-  font-size: 45px
+  font-size: 30px
   color: lighten( $black, 20% )
-  padding: 10px 30px 0 30px
+  padding: 20px 30px 0 20px
   font-weight: 100
+  @media (min-width: 950px)
+    font-size: 45px
+    padding: 10px 30px 0 30px
+
 .logo
   display: block
   background-color: white
@@ -145,6 +149,7 @@ h1
   height: calc(100vh - 70px)
   z-index: 5
   background-size: cover
+  background-position: top center
   animation: hero-carousel 10s ease-in-out both infinite
 
 
