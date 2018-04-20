@@ -52,6 +52,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/breakfast-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/breakfast-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/downarrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -67,6 +77,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/email-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/extrabed-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/extrabed-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -111,6 +131,158 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/garden\/.~lock.Note.odt#": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/garden\/.~lock.Note.odt#",
+		"oF": 0
+		},
+	"\/assets\/img\/garden\/9.jpg": {
+		"ft": 16384,
+		"iS": 74191,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/beiky.jpg": {
+		"ft": 16384,
+		"iS": 76825,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/beiky.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/DSCF2116.JPG": {
+		"ft": 16384,
+		"iS": 1295207,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/DSCF2116.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/flowers.jpg": {
+		"ft": 16384,
+		"iS": 304964,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/garden-hero.jpg": {
+		"ft": 16384,
+		"iS": 414922,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/garden-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/girl.jpg": {
+		"ft": 16384,
+		"iS": 245304,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/girl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/house.jpg": {
+		"ft": 16384,
+		"iS": 313401,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/house.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/IMG_2095.JPG": {
+		"ft": 16384,
+		"iS": 4573498,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/IMG_2095.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/night.jpg": {
+		"ft": 16384,
+		"iS": 125178,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/night.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/Note.odt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/garden\/Note.odt",
+		"oF": 0
+		},
+	"\/assets\/img\/garden\/Sdraio.JPG": {
+		"ft": 16384,
+		"iS": 4286789,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/Sdraio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/terrace.jpg": {
+		"ft": 16384,
+		"iS": 282946,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/terrace.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/view-1.jpg": {
+		"ft": 16384,
+		"iS": 271356,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/view-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/view.jpg": {
+		"ft": 16384,
+		"iS": 229938,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/view.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/garden\/Vista.jpg": {
+		"ft": 16384,
+		"iS": 357993,
+		"oA": 0,
+		"oAP": "\/assets\/img\/garden\/Vista.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/hero-carousel\/Beautifulbackgroundpic.jpg": {
 		"ft": 16384,
@@ -222,6 +394,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/assets\/img\/parking.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/parking.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/peaceful.jpg": {
 		"ft": 16384,
 		"iS": 191735,
@@ -252,6 +434,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/rooms\/rooms-1.jpg": {
+		"ft": 16384,
+		"iS": 231805,
+		"oA": 0,
+		"oAP": "\/assets\/img\/rooms\/rooms-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/rooms\/rooms-2.jpg": {
+		"ft": 16384,
+		"iS": 261184,
+		"oA": 0,
+		"oAP": "\/assets\/img\/rooms\/rooms-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/rooms\/rooms-3.jpg": {
+		"ft": 16384,
+		"iS": 455731,
+		"oA": 0,
+		"oAP": "\/assets\/img\/rooms\/rooms-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/rooms\/rooms-4.jpg": {
+		"ft": 16384,
+		"iS": 282644,
+		"oA": 0,
+		"oAP": "\/assets\/img\/rooms\/rooms-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/rooms\/rooms-5.jpg": {
+		"ft": 16384,
+		"iS": 710506,
+		"oA": 0,
+		"oAP": "\/assets\/img\/rooms\/rooms-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/sign.jpg": {
 		"ft": 16384,
 		"iS": 358513,
@@ -261,6 +493,126 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/assets\/img\/surroundings\/bis.jpg": {
+		"ft": 16384,
+		"iS": 130604,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/bis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/climbing.jpg": {
+		"ft": 16384,
+		"iS": 192902,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/climbing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/grotte.jpg": {
+		"ft": 16384,
+		"iS": 167629,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/grotte.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/outdoor.jpg": {
+		"ft": 16384,
+		"iS": 125577,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/outdoor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/percosi.jpg": {
+		"ft": 16384,
+		"iS": 105804,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/percosi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/Sentiero.jpg": {
+		"ft": 16384,
+		"iS": 187662,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/Sentiero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/surroundings-hero.jpg": {
+		"ft": 16384,
+		"iS": 333683,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/surroundings-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/varigotti-1.jpg": {
+		"ft": 16384,
+		"iS": 142809,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/varigotti-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/varigotti.jpg": {
+		"ft": 16384,
+		"iS": 72479,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/varigotti.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/verezzi.jpg": {
+		"ft": 16384,
+		"iS": 175314,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/verezzi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/surroundings\/whalewatching.jpg": {
+		"ft": 16384,
+		"iS": 80593,
+		"oA": 0,
+		"oAP": "\/assets\/img\/surroundings\/whalewatching.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/wifi-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/wifi-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/js\/app-min.js": {
 		"ft": 64,
@@ -280,6 +632,14 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/contact.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/downarrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -289,6 +649,20 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/garden.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/garden.html",
+		"oF": 0
+		},
+	"\/garden.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/garden.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/includes\/footer.pug": {
 		"cOD": 1,
@@ -337,6 +711,48 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/prices.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prices.html",
+		"oF": 0
+		},
+	"\/prices.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/prices.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/rooms.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/rooms.html",
+		"oF": 0
+		},
+	"\/rooms.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/rooms.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/surroundings.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/surroundings.html",
+		"oF": 0
+		},
+	"\/surroundings.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/surroundings.html",
+		"oF": 0,
+		"oS": 0
 		}
 	},
 "hooks": [

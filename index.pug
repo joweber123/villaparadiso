@@ -1,6 +1,6 @@
-mixin btn(link)
+mixin btn(link, text)
   .btn
-    a(href=link) Learn more
+    a(href=link)=text
     svg.arrow
       defs
         marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
@@ -18,25 +18,25 @@ include ./includes/header.pug
   section.welcome.body-padding
     h2 Welcome to Villa Paradiso
     p Welcome to our villa that we have managed for over forty years, our family have worked in tourism for generations.
-  section.surroundings.body-padding
+  section.right-text-box.body-padding
     img(src='assets/img/peaceful.jpg')
     .text-wrap 
       h3 The surroundings
       p Here you will not find the formalities and anonymity of a big hotel. We offer you the peace and tranquility of a house immersed in its gardens in the green hills of Borgio Verezzi, where youll enjoy day and night a panoramic view of the Gulf.
-      +btn('surroundings.html')
+      +btn('surroundings.html', 'Learn More')
       
-  section.rooms.body-padding
+  section.left-text-box.body-padding
     img(src='assets/img/rooms.jpg')
     .text-wrap 
       h3 The rooms
       p Each of our cozy rooms are uniquely furnished, have a private bathroom and a wonderful view of the sea.
-      +btn('rooms.html')
-  section.location.body-padding
+      +btn('rooms.html', 'Learn More')
+  section.right-text-box.body-padding
     img(src='assets/img/sign.jpg')
     .text-wrap 
       h3 The location
       p Villa Paradiso is located 100 meters above sea level, includes private parking and is within walking distance to the beach and the old town of Verezzi. If you prefer to avoid traffic you’ll get there in a few minutes via the pedestrian shortcuts, or you can take a bus that runs throughout the day.
-      +btn('surroundings.html')
+      +btn('surroundings.html', 'Learn More')
   section.information.body-padding
     h3 For information and reservations:
     .flex-wrapper

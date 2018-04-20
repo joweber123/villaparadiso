@@ -1,0 +1,36 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='assets/img/rooms/rooms-1.jpg')
+    .page-section-text.pages-hero
+      h2 Our Rooms
+      p Each of our simple, cozy rooms are thoughtfully decorated. Each has a private bathroom and a beautiful view over the Mediteranean sea.
+
+  section.left-text-box
+    img(src='assets/img/rooms/rooms-2.jpg')
+    .page-section-text
+      h2 Sleeping arrangements
+      p There are single, twin, double and three bed rooms available with the possible addition of beds for children according to your needs.    
+  section.right-text-box
+    img(src='assets/img/rooms/rooms-3.jpg')
+    .page-section-text
+      h2 Breakfast
+      p  A complimentary breakfast is included, whether you want to rest until late or leave early for an excursion; in the morning you will be greeted by the smell of coffee, fresh bread, eggs, delicious jams and homemade marmalade.
+  section.bottom-padding.left-text-box
+    img(src='assets/img/rooms/rooms-4.jpg')
+    .page-section-text
+      h2 Come Join us
+      p We are always happy to meet any needs and wishes you may have during your stay.
+      +btn('contact.html', 'Contact us')
+  include ./includes/footer.pug
