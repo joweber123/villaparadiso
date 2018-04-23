@@ -47,6 +47,9 @@ img {
 .text-wrap {
   padding: 20px 0; }
 
+a {
+  text-decoration: none; }
+
 .logo {
   display: block;
   background-color: white;
@@ -62,8 +65,13 @@ img {
   font-family: 'Josefin Sans', sans-serif;
   position: fixed;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   top: 0;
-  z-index: 20; }
+  z-index: 20;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
 
 .hamburger-icon {
   display: block;
@@ -222,6 +230,18 @@ img {
   @media (min-width: 950px) {
     .body-padding {
       text-align: left; } }
+  @media (min-width: 1200px) {
+    .body-padding {
+      padding: 0; } }
+
+.body-padding-footer {
+  padding: 10px 20px; }
+  @media (min-width: 950px) {
+    .body-padding-footer {
+      text-align: center; } }
+  @media (min-width: 950px) {
+    .body-padding-footer {
+      padding: 10px 0; } }
 
 .welcome {
   padding: 30px 20px;
@@ -320,6 +340,14 @@ img {
   .flex-wrapper figure img, .flex-wrapper .footer-group img {
     width: 100px; }
 
+#map {
+  height: 500px;
+  margin-bottom: 20px; }
+  @media (min-width: 950px) {
+    #map {
+      height: 600px;
+      width: 100%; } }
+
 footer {
   text-align: center;
   background-color: #002C59;
@@ -327,7 +355,8 @@ footer {
   @media (min-width: 950px) {
     footer {
       padding: 30px 0;
-      clear: both; } }
+      clear: both;
+      text-align: center; } }
   footer h4 {
     color: #EEBC6C; }
   footer ul {
@@ -488,13 +517,24 @@ footer {
     border: 1px solid #727d83;
     padding: 20px; }
   .page-wrapper-prices td {
-    padding: 20px; }
-  .page-wrapper-prices .extra-include-container figure {
-    margin: 1em 0; }
-    .page-wrapper-prices .extra-include-container figure img {
-      width: 75px;
-      display: inline-block;
-      vertical-align: middle; }
-    .page-wrapper-prices .extra-include-container figure figcaption {
-      display: inline-block;
-      vertical-align: middle; }
+    padding: 20px;
+    border-bottom: 1px solid #727d83; }
+  .page-wrapper-prices .extra-include-container {
+    border-bottom: none; }
+    .page-wrapper-prices .extra-include-container figure {
+      margin: 1em 0; }
+      .page-wrapper-prices .extra-include-container figure img {
+        width: 75px;
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px; }
+      .page-wrapper-prices .extra-include-container figure figcaption {
+        display: inline-block;
+        vertical-align: middle; }
+
+.flex-wrapper-contact {
+  display: block; }
+  .flex-wrapper-contact figure {
+    padding: 10px 0; }
+    .flex-wrapper-contact figure img {
+      width: 75px; }

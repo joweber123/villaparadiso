@@ -132,12 +132,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/garden\/.~lock.Note.odt#": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/img\/garden\/.~lock.Note.odt#",
-		"oF": 0
-		},
 	"\/assets\/img\/garden\/9.jpg": {
 		"ft": 16384,
 		"iS": 74191,
@@ -631,6 +625,21 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/js\/map.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/map-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
 		},
 	"\/contact.pug": {
 		"cOD": 1,

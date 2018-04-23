@@ -37,6 +37,7 @@ include ./includes/header.pug
       h3 The location
       p Villa Paradiso is located 100 meters above sea level, includes private parking and is within walking distance to the beach and the old town of Verezzi. If you prefer to avoid traffic you’ll get there in a few minutes via the pedestrian shortcuts, or you can take a bus that runs throughout the day.
       +btn('surroundings.html', 'Learn More')
+
   section.information.body-padding
     h3 For information and reservations:
     .flex-wrapper
@@ -50,5 +51,9 @@ include ./includes/header.pug
 
       figure
         img(src='assets/img/phone-logo.svg')
-        figcaption 019 610622
+        figcaption +39 019 610622
+  section.map.body-padding
+    #map
   include ./includes/footer.pug
+  script(src='assets/js/map.js')
+  script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPNfilt0SY0YO6VZgCEjn7gTOrLmRkSFA&callback=initMap")
