@@ -7,30 +7,37 @@ mixin btn(link, text)
           polygon(points='0,0 1,1 0,2', fill='#979797')
       line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
 
-
+mixin btn-complimentary(link, text)
+  .btn.btn-complimentary
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
 include ./includes/head.pug
 include ./includes/header.pug
 .page-wrapper.pages-wrapper
   section.pages-hero-wrapper
     img(src='assets/img/rooms/rooms-1.jpg')
     .page-section-text.pages-hero
-      h2 Our Rooms
-      p Each of our simple, cozy rooms are thoughtfully decorated. Each has a private bathroom and a beautiful view over the Mediteranean sea.
+      h2 Camere e colazione
+      p Ogni camera a Villa Paradiso è arredata in modo differente, dispone degli accessori essenziali ed è dotata di bagno privato, ma soprattutto offre una splendida vista sul mare.
 
   section.left-text-box
     img(src='assets/img/rooms/rooms-2.jpg')
     .page-section-text
-      h2 Sleeping arrangements
-      p There are single, twin, double and three bed rooms available with the possible addition of beds for children according to your needs.    
+      h2 Tipologie di camere
+      p Sono disponibili camere singole, doppie e triple con l'eventuale aggiunta di lettini per bambini a seconda delle esigenze. 
   section.right-text-box
     img(src='assets/img/rooms/rooms-3.jpg')
     .page-section-text
-      h2 Breakfast
-      p  A complimentary breakfast is included, whether you want to rest until late or leave early for an excursion; in the morning you will be greeted by the smell of coffee, fresh bread, eggs, delicious jams and homemade marmalade.
+      h2 Colazione
+      p  La colazione è compresa nella tariffa del soggiorno. Sia che vogliate riposare fino a tardi oppure partire presto per una gita, al mattino sarete accolti dal profumo del caffè, dalla fragranza del pane fresco ogni giorno, dalle deliziose marmellate.
   section.bottom-padding.left-text-box
     img(src='assets/img/rooms/rooms-4.jpg')
     .page-section-text
-      h2 Come Join us
-      p We are always happy to meet any needs and wishes you may have during your stay.
-      +btn('contact.html', 'Contact us')
+      h2 Contatti
+      p Saremo lieti di venire incontro ai vostri desideri ed esigenze alimentari che vorrete comunicarci.
+      +btn-complimentary('contact.html', 'Contattaci')
   include ./includes/footer.pug

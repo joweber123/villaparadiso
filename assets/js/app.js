@@ -1,4 +1,6 @@
-
+window.onload=function(){
+  smoothScrollInit();
+}
 var hamburger = document.querySelector('.hamburger-icon');
 
 hamburger.onclick=function(){
@@ -12,6 +14,28 @@ hamburger.onclick=function(){
     bar[i].classList.toggle('open');
   }
 };
+var pagePosition = document.pageYOffset;
+
+function smoothScrollInit(){
+  var smoothScrollLinks = document.querySelectorAll('.smoothscrolllink');
+  for(var i=0; i<smoothScrollLinks.length; i++){
+    smoothScrollLinks[i].addEventListener("click", function(event){
+      event.preventDefault();
+      var cleanedLink = event.target.innerText.replace(/[\W_]/g,'').toLowerCase();
+
+      var link = document.querySelector("#" + cleanedLink + "");
+      var linkDistance = link.offsetTop;
+  
+      window.scrollTo({
+          top: linkDistance,
+          behavior: "smooth"
+      });
+    });
+
+  }
+}
+
+
 
 // var btn = document.querySelector('.btn');
 // btn.onmouseover=function(){

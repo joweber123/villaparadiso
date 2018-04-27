@@ -1,0 +1,42 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+mixin btn-complimentary(link, text)
+  .btn.btn-complimentary
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/rooms/rooms-1.jpg')
+    .page-section-text.pages-hero
+      h2 Bed and  Breakfast
+      p Chacune de nos confortables chambres a été pensé de façon différentes et offre une vue imprenable sur la mer. Toutes disposent également d'une salle de bain privative.
+  section.left-text-box
+    img(src='../assets/img/rooms/rooms-2.jpg')
+    .page-section-text
+      h2 L'hébergement
+      p Elles sont simples, doubles, triples et avec l'ajout possible de lits pour les enfants en fonction de vos besoins. 
+  section.right-text-box
+    img(src='../assets/img/rooms/rooms-3.jpg')
+    .page-section-text
+      h2 Le petit-déjeuner
+      p  Le petit-déjeuner est inclus dans le prix de la chambre. Peu importe que vous vouliez vous reposer jusqu'à une heure tardive ou partir de bonne heure pour une excursion, le matin, vous serez accueillis par l'odeur du café, le parfum du pain frais du jour et de délicieuses confitures.
+  section.bottom-padding.left-text-box
+    img(src='../assets/img/rooms/rooms-4.jpg')
+    .page-section-text
+      h2 Contactez-nous
+      p Nous serons toujours heureux de satisfaire à vos habitudes et aux souhaits que vous nous communiquerez. 
+      +btn-complimentary('contact.html', 'Contact')
+  include ./includes/footer.pug

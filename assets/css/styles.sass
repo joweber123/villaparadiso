@@ -2,9 +2,10 @@ $black: #131516
 $hover-border-color: #6CB9EE
 $nav-height: 40px
 $highlight-color: #EEBC6C
-$footer-color: #002C59
+// $footer-color: lighten(#002C59, 10%)
+$footer-color: lighten($black, 30%)
 $compliment-color: #E9F8C3
-E9F8C3
+
 
 ul
   padding: 0
@@ -299,7 +300,7 @@ a
 
 .information
   padding-top: 5%
-  padding-bottom: 5%
+
   text-align: center
 
   h3
@@ -309,7 +310,8 @@ a
     @media (min-width: 950px)
       display: inline-block
       width: 500px
-      padding:
+      padding: 30px
+
 .flex-wrapper
   display: block
   @media (min-width: 950px)
@@ -380,8 +382,6 @@ footer
   border: solid 1px $hover-border-color
   border-radius: 10px
 
-  &:hover
-    background-color: lighten($hover-border-color, 30%)
   @media (min-width: 950px)
     display: inline-block
     padding-right: 20px
@@ -396,7 +396,8 @@ footer
     @media (min-width: 950px)
       display: inline-block
       vertical-align: middle
-      margin: 15px 0 15px 10px
+      padding: 15px 0 15px 10px
+      margin-top: 0
 
 
 
@@ -411,6 +412,12 @@ footer
 
   .js-arrow-grow
     width: 80px
+.main-btn
+  &:hover
+    background-color: rgba(white, .5)
+.btn-complimentary
+  &:hover
+    background-color: rgba($compliment-color, .5)
 
 
 
@@ -461,6 +468,7 @@ footer
       padding: 5px 0
       a
         text-decoration: none
+        color: $footer-color
 
   @media (min-width: 950px)
     width: 25%
@@ -515,6 +523,8 @@ footer
   table
     border-radius: 10px
     border-collapse: separate
+    width: 100%
+    max-width: 500px
   table, tr
     border: 1px solid lighten( $black, 40% )
     padding: 20px

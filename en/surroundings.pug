@@ -1,0 +1,82 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/surroundings/surroundings-hero.jpg')
+    .page-section-text.pages-hero
+      h2 What to do,<br> What to see
+      p Villa Paradiso is an excellent starting point, whatever your interest.
+  aside.surroundings-aside
+    h2 Quick Page links
+    ul
+      li
+        a.smoothscrolllink(href='#') Sea
+      li
+        a.smoothscrolllink(href='#') Cycling
+      li
+        a.smoothscrolllink(href='#') Climbing/Hiking
+      li
+        a.smoothscrolllink(href='#') Verezzi
+      li
+        a.smoothscrolllink(href='#') Final Borgo
+      li
+        a.smoothscrolllink(href='#') Pellegrino Trail
+      h2 Useful Local links
+      ul
+        li
+          a(href='http://societa.verezzi.it/', target="_blank") Antica Societa Pizzeria
+        li
+          a(href='http://www.festivalverezzi.it/', target="_blank") Festival Teatrale di Borgio Verezzi
+        li
+          a(href='http://www.grottediborgio.it/', target="_blank") Grotte di Borgio Verezzi 
+        li
+          a(href='http://www.comuneborgioverezzi.gov.it/', target="_blank") Comune di Borgio Verezzi
+        li
+          a(href='http://turismo.comunefinaleligure.it/en/outdoor', target="_blank") Outdoor Activities in Finale
+        li
+          a(href='http://borgioverezzisentieri.altervista.org/', target="_blank") Borgio Verezzi Information
+
+
+
+
+  .surroundings-wrapper
+    section#sea
+      h2 The Surroundings
+      p The beach, swimming and diving or boat trips pursuing the routes of dolphins and whales in the cetacean sanctuary. We can recommend the best places to swim and sunbathe, free beaches as well as private equipped with sun loungers and also animal friendly spots! 
+      img(src='../assets/img/surroundings/whalewatching.jpg')
+    section#verezzi
+      p In just fifteen minutes on foot, you can enjoy a gentle stroll up to the ancient village of Verezzi with its romantic atmosphere and the prestigious summer theatre Festival or you can discover important historical centers such as Genoa, an hour drive from Villa Paradiso to the east. To the west dive into the world of the Principality of Monaco or capture the sparkling liveliness of a Mediterranean city like Nice.
+      img(src='../assets/img/surroundings/verezzi.jpg')
+    section#finalborgo
+      p Finalborgo protected by medieval walls, with craft workshops, specialised sports shops and characteristic restaurants. The beautiful Varigotti with colourful houses built onto the beach, one of the most famous beaches in Italy together with the nearby Saracens Bay and the Malpasso beach 
+      img(src='../assets/img/surroundings/varigotti.jpg')
+      img(src='../assets/img/surroundings/varigotti-1.jpg')
+    section#pellegrinotrail
+      p One of the most beautiful and historic places to visit in the area is the Pellegrino Trail connecting Varigotti and Noli over Caponoli headland with incredible views  extending from the sea to the mountains from Portofino to Capomele, and on clear days the chance to admire Corsica and the Carrara marble quarries.
+      img(src='../assets/img/surroundings/Sentiero.jpg')
+    section#climbinghiking
+      p Another of the most charming villages in Italy is the ancient maritime republic of Noli, a jewel of the Ponente Riviera with its characteristic porches and ancient towers.
+      p There are numerous hiking trails that can be reached without having to travel by car: in Borgio Verezzi alone you can explore to following trails: Nature, Culture, Geology, Ancient Rural Routes rich in botanical variety and archaeological finds.
+      p It is possible to trek along the Napoleonic road, an ancient route linking Borgio Verezzi to Finale Ligure passing the Caprazoppa hill and its promontory.
+      p Or go with the whole family to discover the most colourful caves of Italy, visiting the natural wonders inside the Grotte of Borgio Verezzi. 
+      img(src='../assets/img/surroundings/percosi.jpg')
+      img(src='../assets/img/surroundings/grotte.jpg')
+      img(src='../assets/img/surroundings/bis.jpg')
+    section#cycling 
+      p Villa Paradiso is just a few kilometers from the nearest motorway exit, the A10 to Finale Ligure which is a popular resort for outdoor sports. It is possible to practice cycling and mountain biking at all levels. Finale Ligure hosts important competitions such as the WEMBO World 24 Hour Mountainbike Championship and the European Solo 24h MTB and the Enduro World Series. You can also find bicycle services and activities such as rental, MTB school, guides and shuttles.
+      p As well as this, the territory of the Finale is known among climbers all over Europe who love to climb the innumerable rocks that boast some of the most beautiful cliffs in Italy. Finalborgo has hosted for several years the sporting and social volunteer event 'Finale for Nepal'. 
+      img(src='../assets/img/surroundings/climbing.jpg')
+      p In 2017 from 1st to 5th November, the International Meeting of Speleology - Cave exploration will take place in Finale Ligure. The Ligurian Riviera of Ponente also hosts numerous racing, triathlon, trail, endure and cross races not to mention the Milan-Sanremo, one of the most important cycling races since 1907. 
+      img(src='../assets/img/surroundings/outdoor.jpg')
+      p At Villa Paradiso we know the area and what it has to offer and we will be happy to advise you where to find the most genuine taggiasca olive oil, the wineries that produce the best Pigato, Rossese and Vermentino in the area, where to buy pesto, our famous walnut sauce and local specialties to try; but above all we can recommend the restaurants, taverns and agritourism that we also visit. We are happy to point out the many events, fairs, markets and gourmet festivals that take place throughout the year and we can help you organize your visit so that your vacation can become a memorable experience and you too can fall in love with our wonderful Liguria. 
+  include ./includes/footer.pug

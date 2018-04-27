@@ -1,0 +1,55 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/rooms/rooms-1.jpg')
+    .page-section-text.pages-hero
+      h2 Tarifs
+
+  .page-wrapper-prices
+    table
+      tr
+        td
+          h3 Chambre simple
+          p de 38 à 45 Euro par nuit
+          p -petit déjeuner inclus-
+      tr
+        td
+          h3 Chambre double/couple
+          p de 65 à 75 Euro par nuit
+          p -petit déjeuner inclus-
+      tr
+        td
+          h3 Chambre triple
+          p de 85 à 90 Euro par nuit
+          p -petit déjeuner inclus-
+      tr
+        td.extra-include-container
+          figure
+            img(src='../assets/img/wifi-icon.svg')
+            figcaption wifi gratuit
+          figure
+            img(src='../assets/img/parking.svg')
+            figcaption parking gratuit
+          figure
+            img(src='../assets/img/breakfast-icon.svg')
+            figcaption petit déjeuner gratuit
+          figure
+            img(src='../assets/img/extrabed-icon.svg')
+            figcaption lit supplémentaire + 15 Eur
+            p *En fonction de la période et de la durée de votre séjour les prix peuvent varier légèrement. Contacter nous pour en discuter et obtenir d'éventuelles remises et offres spéciales.
+
+
+      
+    
+  include ./includes/footer.pug

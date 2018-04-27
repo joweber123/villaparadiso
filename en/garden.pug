@@ -1,0 +1,32 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/garden/garden-hero.jpg')
+    .page-section-text.pages-hero
+      h2 Our Garden
+      p A relaxing paradise
+  section.left-text-box
+    img(src='../assets/img/garden/house.jpg')
+    .page-section-text
+      h2 Relax, Recover, Enjoy
+      p If you want to relax, feel free to spend your time in the garden and on its terraces. You may also like cooling off in the small pool or playing a fun game of bowls. In the evening, admire the starry sky and the Cap di Mele illuminated by a thousand lights with a bottle of good wine.
+  section.gallery
+    img(src='../assets/img/garden/flowers.jpg')
+    img(src='../assets/img/garden/view.jpg')
+    img.horizontal(src='../assets/img/garden/girl.jpg')
+    img.horizontal(src='../assets/img/garden/view-1.jpg')
+    img(src='../assets/img/garden/terrace.jpg')
+    img(src='../assets/img/garden/night.jpg')
+      
+  include ./includes/footer.pug

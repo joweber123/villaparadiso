@@ -1,0 +1,57 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/rooms/rooms-1.jpg')
+    .page-section-text.pages-hero
+      h2 Our Prices
+
+  .page-wrapper-prices
+    table
+      tr
+        td
+          h3 Single room 
+          p from 38 to 45 Euro per night
+          p -including breakfast-
+      tr
+        td
+          h3 Double or Twin room 
+          p from 65 to 75 Euros per night
+          p -including breakfast-
+      tr
+        td
+          h3 Three bed room
+          p from 85 to 90 Euros per night
+          p -including breakfast-
+      tr
+        td.extra-include-container
+          h3 Included in all rooms
+          figure
+            img(src='../assets/img/wifi-icon.svg')
+            figcaption free wifi
+          figure
+            img(src='../assets/img/parking.svg')
+            figcaption free parking
+          figure
+            img(src='../assets/img/breakfast-icon.svg')
+            figcaption free breakfast
+          figure
+            img(src='../assets/img/extrabed-icon.svg')
+            figcaption extra bed + 15 Euros
+            p *Depending on the period and duration of your stay, prices may be subject to minor variations, please contact us for any promotions, discounts and offers.
+
+
+
+      
+    
+  include ./includes/footer.pug

@@ -1,0 +1,82 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/surroundings/surroundings-hero.jpg')
+    .page-section-text.pages-hero
+      h2 Ausflüge, Besichtigungen </br> und Sehenswertes
+      p Villa Paradiso ist der optimale Startpunkt um zum Strand zu gehen.
+  aside.surroundings-aside
+    h2 Quick Page links
+    ul
+      li
+        a.smoothscrolllink(href='#') Das Meer
+      li
+        a.smoothscrolllink(href='#') Radsport
+      li
+        a.smoothscrolllink(href='#') Klippen/Trekking
+      li
+        a.smoothscrolllink(href='#') Verezzi
+      li
+        a.smoothscrolllink(href='#') Final Borgo
+      li
+        a.smoothscrolllink(href='#') Sentiero del Pellegrino
+      h2 Useful Local links
+      ul
+        li
+          a(href='http://societa.verezzi.it/', target="_blank") Antica Societa Pizzeria
+        li
+          a(href='http://www.festivalverezzi.it/', target="_blank") Festival Teatrale di Borgio Verezzi
+        li
+          a(href='http://www.grottediborgio.it/', target="_blank") Grotte di Borgio Verezzi 
+        li
+          a(href='http://www.comuneborgioverezzi.gov.it/', target="_blank") Comune di Borgio Verezzi
+        li
+          a(href='http://turismo.comunefinaleligure.it/en/outdoor', target="_blank") Outdoor Activities in Finale
+        li
+          a(href='http://borgioverezzisentieri.altervista.org/', target="_blank") Borgio Verezzi Information
+
+
+
+
+  .surroundings-wrapper
+    section#sea
+      h2 Die Umgebung
+      p Meer zu genießen, zum Schnorcheln oder um einen Ausflug mit dem Boot zu machen, auf der Spur nach Delphinen und Wahlen indem Santuario dei Cetacei. Wir empfehlen Ihnen gerne die besten privaten, freien oder hundefreundlichen Strände. 
+      img(src='../assets/img/surroundings/whalewatching.jpg')
+    section#verezzi
+      p Sie möchten lieber in der Natur und in den Bergen wandern? Kein Problem, auch das ist bei uns möglich. Ihnen bietet sich die Möglichkeit typische italienische Altstädte zu besuchen, wie z.B. die von Genua, eine wichtige Hafenstadt, die nur eine Stunde von Villa Paradiso entfernt ist. Länger brauchen Sie auch nicht um die Côte d'Azur in Frankreich zu erreichen, dort können Sie das mondäne Leben des Fürstentums Monacos genießen und die Lebhaftigkeit Nizzas erfahren oder beides zu einem perfekten Tagesausflug verbinden.
+      img(src='../assets/img/surroundings/verezzi.jpg')
+    section#finalborgo
+      p Finalborgo mit dem intakten mittelalterlichem Gemäuer und die kleinen Handwerksläden, sowie die Sportlertreffpunkte und charakteristischen Restaurants ist immer einen Besuch wert. Varigotti mit den malerischen bunten Häusern, die direkt am Sand gebaut wurden, zählt zu den namhaftesten Stränden Italiens zusammen mit der angrenzenden Baia dei Saraceni und der Spiaggia del Malpasso.
+      img(src='../assets/img/surroundings/varigotti.jpg')
+      img(src='../assets/img/surroundings/varigotti-1.jpg')
+    section#pellegrinotrail
+      p Dort können Sie eine der schönsten Wanderungen aus landschaftlicher und historischer Sicht unternehmen, der Sentiero del Pellegrino der Varigotti und Noli miteinander verbindet. Vom cap  Noli aus können sie die Sicht auf das Meer genießen und an einem klaren Tag sogar Korsika erblicken oder die berühmten Marmorbrüche von Carrara.
+      img(src='../assets/img/surroundings/Sentiero.jpg')
+    section#climbinghiking
+      p Zusätzlich zu Verezzi und Finalborgo zählt die antica Repubblica marinara di Noli zu den schönsten Altstädten Italiens, mit den altertümlichen Türmen und Bögen ist Noli eine Perle der Riviera.
+      p Falls Sie direkt von der Haustür aus loswandern möchten, gibt es zahlreiche Möglichkeiten ohne das Auto. Alleine in Borgio Verezzi gibt es zahlreiche kulturelle, historische, geologische und Naturwanderwege. Entdecken sie die vielfältige Flora oder archeologische Fundstücke.
+      p Weg der Borgio Verezzi und Finale Ligure auch heute noch miteinander verbindet. Für Kinder und Erwachsene geeignet sind die Grotten von Borgio Verezzi, die buntesten Grotten Italiens, sowie die Höhlen von Toirano – wo sich prähistorische Funde befinden. Weitere Funde können im sehenswerten Museo archeologico del Finale besichtigt werden. 
+      p In 2017 fand in Finale Ligure das Internationale Treffen der Höhlenforschung statt.
+      img(src='../assets/img/surroundings/percosi.jpg')
+      img(src='../assets/img/surroundings/grotte.jpg')
+      img(src='../assets/img/surroundings/bis.jpg')
+    section#cycling 
+      p Villa Paradiso befindet sich wenige Kilometer von den Autobahnausfahrt A10 von Finale Ligure entfernt. In der für Outdoorsport bekannten Ortschaft ist es möglich Radsport oder Mountain Biking zu betreiben, darüber hinaus gibt es einen Shuttlebus Service für Downhill Fans sowie die Möglichkeit Bikes zu mieten und MTB Schulen zu besuchen. Finale Ligure ist Gastgeber für die WEMBO Weltmeisterschaft, der 24 Hours Mountainbike Championship, sowie den European Solo 24H MTB und die Enduro World Series.
+      p Die Berge im Umland von Finale Ligure sind für die herrlichen Buchenwälder, aber auch für die Klippen und Kletterwände bekannt, die Climber Fans aus ganz Europa begeistern. Finalborgo beherbergt seit einigen Jahren das Event Finale for Nepal, ein wohltätiges sportliches Ereigniss. 
+      img(src='../assets/img/surroundings/climbing.jpg')
+      p Die Ligurische Riviera ist auch bekannt für die zahlreichen Wettläufe, wie Triathlon, Trail, Enduro und Cross. Seit 1907 dient sie als Bühne für einen der wichtigsten Rennradwettkämpfe Italiens, der Milano-Sanremo.
+      img(src='../assets/img/surroundings/outdoor.jpg')
+      p Wir kennen die Riviera und die Produkte unserer Region und beraten Sie gerne in jeder Angelegenheit. Brauchen Sie eine Empfehlung zum Kauf von naturreinem Olivenöl oder den für Ligurien typischen Pesto, so können wir Ihnen die besten örtlichen Betriebe empfehlen. Sind Sie auf der Suche nach Pigato, Rossese und Vermentino fragen Sie uns nach den lokalen Winzern. Vor allem können wir Ihnen Restaurants, Gaststätten oder die schönsten Bars für einen Aperitivo empfehlen, die wir selber auch gerne besuchen. Wir informieren unsere Gäste auf Wunsch gerne über aktuelle Events, Märkte und Volksfeste während Ihres Besuches. 
+  include ./includes/footer.pug

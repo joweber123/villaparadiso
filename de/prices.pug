@@ -1,0 +1,55 @@
+mixin btn(link, text)
+  .btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper.pages-wrapper
+  section.pages-hero-wrapper
+    img(src='../assets/img/rooms/rooms-1.jpg')
+    .page-section-text.pages-hero
+      h2 Preisliste
+
+  .page-wrapper-prices
+    table
+      tr
+        td
+          h3 Einzelzimmer 
+          p ab 38 bis 45 Euro pro Nacht
+          p -inklusive Frühstück-
+      tr
+        td
+          h3 Doppelzimmer
+          p ab 65 bis 75 Euro pro Nacht
+          p -inklusive Frühstück-
+      tr
+        td
+          h3 Dreibettzimmer
+          p ab 85 bis 90 Euro pro Nacht
+          p -inklusive Frühstück-
+      tr
+        td.extra-include-container
+          figure
+            img(src='../assets/img/wifi-icon.svg')
+            figcaption free wifi
+          figure
+            img(src='../assets/img/parking.svg')
+            figcaption free parking
+          figure
+            img(src='../assets/img/breakfast-icon.svg')
+            figcaption free breakfast
+          figure
+            img(src='../assets/img/extrabed-icon.svg')
+            figcaption Zusätzliches Bett 15 Euro
+            p *Abhängig vom Zeitraum und von der Aufenthaltsdauer können sich die Preise leicht verändern. Kontaktieren Sie uns bezüglich möglicher Angebote oder Preisnachlässe.
+
+
+      
+    
+  include ./includes/footer.pug

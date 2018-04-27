@@ -1,0 +1,68 @@
+mixin btn(link, text)
+  .btn.main-btn
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+mixin btn-complimentary(link, text)
+  .btn.btn-complimentary
+    a(href=link)=text
+    svg.arrow
+      defs
+        marker#m(markerwidth='4', markerheight='8', refx='0', refy='1', viewbox='0 0 1 2')
+          polygon(points='0,0 1,1 0,2', fill='#979797')
+      line(x1='0', y1='50%', x2='100%', y2='50%', stroke-width='2', marker-end='url(#m)', stroke='#979797')
+
+include ./includes/head.pug
+include ./includes/header.pug
+.page-wrapper
+  .home-hero-wrapper
+    //- .down-arrow-wrapper
+    //- 
+    //-   img.downarrow(src="../assets/img/downarrow.svg" alt="downward arrow")
+  section.welcome.body-padding
+    h2 Bienvenue à la Villa Paradiso
+    p Bienvenue dans la maison que nous gérons depuis plus de cinquante ans. L'accueil des voyageurs est une tradition qui dure dans notre famille depuis plusieurs générations. 
+  section.right-text-box.body-padding
+    img(src='../assets/img/peaceful.jpg')
+    .text-wrap 
+      h3 Les Environs
+      p La Villa Paradiso est située à 100 mètres au-dessus du niveau de la mer et dispose d'un parking privé. Si vous préférez éviter le trafic, vous pouvez choisir d'aller au centre-ville et à la plage à pieds, en empruntant les raccourcis qui vous y meneront en quelques minutes ou en profitant des bus qui circulent au fil de la colline tout au long de la journée.
+      +btn('surroundings.html', 'En savoir plus')
+      
+  section.left-text-box.body-padding
+    img(src='../assets/img/rooms.jpg')
+    .text-wrap 
+      h3 Bed and Breakfast
+      p Chacune de nos chambres sont meublées confortablement et differemment. Toutes disposent d'une salle de bain privative et offre une vue magnifique sur la mer Méditeranée.
+      +btn-complimentary('rooms.html', 'En savoir plus')
+  section.right-text-box.body-padding
+    img(src='../assets/img/sign.jpg')
+    .text-wrap 
+      h3 Le Jardin
+      p Ici, vous ne trouverez pas le formalisme, les normes et l'anonymat d'une chaîne hôtelière. Nous vous proposons la paix et la tranquillité d'une maison et de son jardin situés dans les collines verdoyantes de Borgio Verezzi. Vous y profiterez jour et nuit d'une vue magnifique sur le golfe. 
+      +btn('garden.html', 'En savoir plus')
+
+  section.information.body-padding
+    h3 Pour plus d'informations et pour vos réservations:
+    .flex-wrapper
+      figure
+        img(src='../assets/img/email-logo-straight.svg')
+        figcaption villaparadiso@verezzi.it
+      figure
+        a(href='https://www.google.com/maps/place/Villa+Paradiso/@44.160847,8.3149183,17z/data=!3m1!4b1!4m7!3m6!1s0x12d2f9e4e2df9a19:0x3d5d3ab4a296bc41!5m1!1s2018-04-25!8m2!3d44.160847!4d8.317107', target="_blank") 
+
+          img(src='../assets/img/address-logo.svg')
+          figcaption VILLA PARADISO <br> Via N. Sauro, 172 Borgio Verezzi <br> Italia
+          
+
+      figure
+        img(src='../assets/img/phone-logo.svg')
+        figcaption +39 019 610622
+  section.map.body-padding
+    #map
+  include ./includes/footer.pug
+  script(src='../assets/js/map.js')
+  script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPNfilt0SY0YO6VZgCEjn7gTOrLmRkSFA&callback=initMap")

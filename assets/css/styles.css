@@ -310,7 +310,6 @@ a {
 
 .information {
   padding-top: 5%;
-  padding-bottom: 5%;
   text-align: center; }
   .information h3 {
     background-color: #EEBC6C;
@@ -319,7 +318,8 @@ a {
     @media (min-width: 950px) {
       .information h3 {
         display: inline-block;
-        width: 500px; } }
+        width: 500px;
+        padding: 30px; } }
 
 .flex-wrapper {
   display: block; }
@@ -350,7 +350,7 @@ a {
 
 footer {
   text-align: center;
-  background-color: #002C59;
+  background-color: #5a6368;
   padding-top: 10px; }
   @media (min-width: 950px) {
     footer {
@@ -388,8 +388,6 @@ footer {
   cursor: pointer;
   border: solid 1px #6CB9EE;
   border-radius: 10px; }
-  .btn:hover {
-    background-color: #f5fafe; }
   @media (min-width: 950px) {
     .btn {
       display: inline-block;
@@ -405,7 +403,8 @@ footer {
       .btn a {
         display: inline-block;
         vertical-align: middle;
-        margin: 15px 0 15px 10px; } }
+        padding: 15px 0 15px 10px;
+        margin-top: 0; } }
   .btn svg {
     width: 40px;
     height: 20px;
@@ -415,6 +414,12 @@ footer {
     vertical-align: middle; }
   .btn .js-arrow-grow {
     width: 80px; }
+
+.main-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.btn-complimentary:hover {
+  background-color: rgba(233, 248, 195, 0.5); }
 
 .page-section-text h2 {
   margin: 20px 0;
@@ -455,7 +460,8 @@ footer {
   .surroundings-aside ul li {
     padding: 5px 0; }
     .surroundings-aside ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #5a6368; }
 
 @media (min-width: 950px) {
   .surroundings-aside {
@@ -512,7 +518,9 @@ footer {
   text-align: left; }
   .page-wrapper-prices table {
     border-radius: 10px;
-    border-collapse: separate; }
+    border-collapse: separate;
+    width: 100%;
+    max-width: 500px; }
   .page-wrapper-prices table, .page-wrapper-prices tr {
     border: 1px solid #727d83;
     padding: 20px; }
