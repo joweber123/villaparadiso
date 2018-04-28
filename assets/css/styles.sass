@@ -2,10 +2,10 @@ $black: #131516
 $hover-border-color: #6CB9EE
 $nav-height: 40px
 $highlight-color: #EEBC6C
-// $footer-color: lighten(#002C59, 10%)
 $footer-color: lighten($black, 30%)
 $compliment-color: #E9F8C3
 
+//###################### global styles###########################
 
 ul
   padding: 0
@@ -50,10 +50,8 @@ img
 .text-wrap
   padding: 20px 0
 
-
 a
   text-decoration: none
-
 
 .logo
   display: block
@@ -65,8 +63,8 @@ a
     display: inline-block
 
 
+//###################### header ###########################
 .header
-
   font-family: 'Josefin Sans', sans-serif
   position: fixed
   width: 100%
@@ -76,7 +74,6 @@ a
   z-index: 20
   left: 50%
   transform: translateX(-50%)
-
 
 .hamburger-icon
   display: block
@@ -88,9 +85,6 @@ a
   @media (min-width: 1100px)
     display: none
 
-
-
-
 .bar
   width: 30px
   height: 5px
@@ -99,28 +93,21 @@ a
   margin-top: 5px
   transition: .2s ease-in-out
 
-
-
 .bar:nth-child(1)
   transform-origin: left center
-
 
 .bar:nth-child(2)
   transform-origin: left center
 
-
 .bar:nth-child(3)
   transform-origin: left center
-
 
 .bar.open:nth-child(1)
   transform: rotate(45deg)
 
-
 .bar.open:nth-child(2)
   width: 0%
   opacity: 0
-
 
 .bar.open:nth-child(3)
   transform: rotate(-45deg)
@@ -131,9 +118,6 @@ a
   position: relative
   top: -300px
   padding-top: 0
-
-
-
   @media (min-width: 1100px)
     display: inline-block
     background-color: white
@@ -141,7 +125,6 @@ a
     right: 30px
     padding-top: 20px
     top: 0
-
   a
     text-decoration: none
     z-index: 1000
@@ -157,6 +140,7 @@ a
         filter: opacity(0.2)
       .active
         filter: opacity(1)
+
 .main-nav
   text-align: center
   background-color: #F8F8F8
@@ -171,12 +155,8 @@ a
     list-style: none
     display: inline-block
     padding: 15px 10px
-
-
     @media (min-width: 950px)
       border-bottom: 2px solid white
-
-
     a
       text-decoration: none
       color: lighten( $black, 30% )
@@ -193,6 +173,9 @@ a
   z-index: 10
   border-bottom: 1px solid lighten( $black, 80% )
   top: 0
+
+
+//###################### page wrappers ###########################
 .page-wrapper
   position: relative
   top: 70px
@@ -201,17 +184,18 @@ a
   margin: 0 auto
   box-sizing: border-box
 
-.home-hero-wrapper
 
+//###################### homepage ###########################
+.home-hero-wrapper
   width: 100%
   height: calc(66vh - 70px)
   z-index: 5
   background-size: cover
   background-position: top center
-  animation: hero-carousel 10s ease-in-out both infinite
+  background-image: url(../img/hero-carousel/vaso.jpg)
   @media (min-width: 950px)
     height: calc(100vh - 70px)
-
+    animation: hero-carousel 10s ease-in-out both infinite
   @keyframes hero-carousel
     0%
        background-image: url(../img/hero-carousel/vaso.jpg)
@@ -221,6 +205,22 @@ a
       background-image: url(../img/hero-carousel/peaceful.jpg)
     100%
       background-image: url(../img/hero-carousel/vaso.jpg)
+.down-arrow-wrapper
+  height: 100%
+  width: 100%
+  position: relative
+
+  .downarrow
+    display: none
+    @media (min-width: 950px)
+      display: block
+      width: 75px
+      position: absolute
+      bottom: 25px
+      left: 50%
+      transform: translateX(-50%)
+      filter: opacity(75%)
+
 .body-padding
   padding: 0 20px
   text-align: center
@@ -252,9 +252,6 @@ a
       padding: 10px 30px 0 30px
   p
     margin-bottom: 0
-
-
-
 
 .right-text-box
   @media (min-width: 950px)
@@ -300,7 +297,6 @@ a
 
 .information
   padding-top: 5%
-
   text-align: center
 
   h3
@@ -351,9 +347,6 @@ footer
         text-decoration: none
         color: white
 
-
-
-
   p
     color: white
     font-size: 14px
@@ -376,12 +369,11 @@ footer
 
 
 
-// ############################ btn
+// ############################ btn ########################################
 .btn
   cursor: pointer
   border: solid 1px $hover-border-color
   border-radius: 10px
-
   @media (min-width: 950px)
     display: inline-block
     padding-right: 20px
@@ -399,16 +391,12 @@ footer
       padding: 15px 0 15px 10px
       margin-top: 0
 
-
-
   svg
     width: 40px
     height: 20px
     transition: width 2s ease
     overflow: visible
     vertical-align: middle
-
-
 
   .js-arrow-grow
     width: 80px
@@ -420,7 +408,6 @@ footer
     background-color: rgba($compliment-color, .5)
 
 
-
 .page-section-text
 
   h2
@@ -428,7 +415,6 @@ footer
     font-size: 50px
     color: lighten( $black, 20% )
     font-weight: 100
-
 
 .pages-wrapper
   padding: 20px 20px 0 20px
@@ -459,9 +445,8 @@ footer
 
 .bottom-padding
   padding-bottom: 5%
-
+//###################### surroundings page ###########################
 .surroundings-aside
-
   ul
     list-style: none
     li
@@ -485,7 +470,6 @@ footer
     float: left
     text-align: left
 .gallery
-
   img
     padding-bottom: 5px
     @media (min-width: 950px)
@@ -515,11 +499,16 @@ footer
     @media (min-width: 400px)
       padding-left: 5px
       box-sizing: border-box
+
+//###################### prices page ###########################
+
 .page-wrapper-prices
   display: inline-block
-  padding: 20px
+
   margin: 0 auto
   text-align: left
+  @media (min-width: 950px)
+    padding: 20px
   table
     border-radius: 10px
     border-collapse: separate
@@ -532,24 +521,31 @@ footer
   td
     padding: 20px
     border-bottom: 1px solid lighten( $black, 40% )
-
+    h3
+      font-size: 30px
+      @media (min-width: 950px)
+        font-size: 45px
   .extra-include-container
     border-bottom: none
     figure
       margin: 1em 0
       img
         width: 75px
-        display: inline-block
+        display: block
         vertical-align: middle
         padding-right: 10px
+        @media (min-width: 400px)
+          display: inline-block
       figcaption
         display: inline-block
         vertical-align: middle
+
+
+//###################### contact page ###########################
+
 .flex-wrapper-contact
   display: block
   figure
     padding: 10px 0
-
-
     img
       width: 75px

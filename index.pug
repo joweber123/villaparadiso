@@ -19,47 +19,46 @@ include ./includes/head.pug
 include ./includes/header.pug
 .page-wrapper
   .home-hero-wrapper
-    //- .down-arrow-wrapper
-    //- 
-    //-   img.downarrow(src="assets/img/downarrow.svg" alt="downward arrow")
+    .down-arrow-wrapper
+      img.downarrow(src="assets/img/downarrow.svg" alt="downward arrow")
   section.welcome.body-padding
     h2 Benvenuti a Villa Paradiso
     p Benvenuti nella casa che gestiamo da oltre 50 anni, la nostra famiglia si occupa di turismo da generazioni.
   section.right-text-box.body-padding
-    img(src='assets/img/peaceful.jpg')
+    img(src='assets/img/goldensunset.jpg' alt="beach scenery")
     .text-wrap 
       h3 I DINTORNI
       p Villa Paradiso è situata a 100 metri sul livello del mare e dispone di parcheggio privato,  se preferite evitare il traffico è possibile arrivare in centro e alla spiaggia, in pochi minuti percorrendo le scorciatoie a piedi, oppure avvalendovi del servizio bus che percorre la collina più volte al giorno.
-      +btn('surroundings.html', 'Scopri di più')
+      +btn('surroundings', 'Scopri di più')
       
   section.left-text-box.body-padding
-    img(src='assets/img/rooms.jpg')
+    img(src='assets/img/rooms.jpg' alt="rooms")
     .text-wrap 
       h3 CAMERE E COLAZIONE
       p Ognuna delle nostre graziose stanze è arredata in modo differente, è dotata di bagno privato e offre una splendida vista sul mare.
-      +btn-complimentary('rooms.html', 'Scopri di più')
+      +btn-complimentary('rooms', 'Scopri di più')
   section.right-text-box.body-padding
-    img(src='assets/img/sign.jpg')
+    img(src='assets/img/sign.jpg' alt="business sign")
     .text-wrap 
       h3 IL GIARDINO
       p Qui non troverete la formalità, gli standard e l'anonimità di una grande struttura alberghiera, noi Vi offriamo la pace e la tranquillità di una casa immersa nel suo giardino, nel verde della collina di Borgio Verezzi, da cui godrete, giorno e notte di una meravigliosa vista sul Golfo.
-      +btn('garden.html', 'Scopri di più')
+      +btn('garden', 'Scopri di più')
 
   section.information.body-padding
     h3 Per informazioni e prenotazioni:
     .flex-wrapper
       figure
-        img(src='assets/img/email-logo-straight.svg')
+        img(src='assets/img/email-logo-straight.svg' alt="email icon")
         figcaption villaparadiso@verezzi.it
       figure
         a(href='https://www.google.com/maps/place/Villa+Paradiso/@44.160847,8.3149183,17z/data=!3m1!4b1!4m7!3m6!1s0x12d2f9e4e2df9a19:0x3d5d3ab4a296bc41!5m1!1s2018-04-25!8m2!3d44.160847!4d8.317107', target="_blank") 
 
-          img(src='assets/img/address-logo.svg')
+          img(src='assets/img/address-logo.svg' alt="maps icon")
           figcaption VILLA PARADISO <br> Via N. Sauro, 172 Borgio Verezzi <br> Italia
           
 
       figure
-        img(src='assets/img/phone-logo.svg')
+        img(src='assets/img/phone-logo.svg' alt="phone icon")
         figcaption +39 019 610622
   section.map.body-padding
     #map

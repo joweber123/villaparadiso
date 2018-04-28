@@ -36,7 +36,7 @@
 		"oS": 0
 		},
 	"\/assets\/css\/styles.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -67,6 +67,46 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/contact\/gulls.jpg": {
+		"ft": 16384,
+		"iS": 296188,
+		"oA": 0,
+		"oAP": "\/assets\/img\/contact\/gulls.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/diningroom.jpeg": {
+		"ft": 16384,
+		"iS": 5235195,
+		"oA": 0,
+		"oAP": "\/assets\/img\/diningroom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/diningtable.jpeg": {
+		"ft": 16384,
+		"iS": 3002600,
+		"oA": 0,
+		"oAP": "\/assets\/img\/diningtable.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/diningtable.jpg": {
+		"ft": 16384,
+		"iS": 273554,
+		"oA": 0,
+		"oAP": "\/assets\/img\/diningtable.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/downarrow.svg": {
 		"ft": 2097152,
@@ -304,6 +344,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/goldensunset.jpg": {
+		"ft": 16384,
+		"iS": 227656,
+		"oA": 0,
+		"oAP": "\/assets\/img\/goldensunset.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gulls.jpg": {
+		"ft": 16384,
+		"iS": 4460634,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gulls.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/hero-carousel\/Beautifulbackgroundpic.jpg": {
 		"ft": 16384,
 		"iS": 103891,
@@ -443,6 +503,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/prices\/diningroom.jpg": {
+		"ft": 16384,
+		"iS": 423404,
+		"oA": 0,
+		"oAP": "\/assets\/img\/prices\/diningroom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/rooms.jpg": {
 		"ft": 16384,
@@ -670,12 +740,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/contact.html",
-		"oF": 0
-		},
 	"\/contact.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -683,12 +747,6 @@
 		"oAP": "\/contact.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/de\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/de\/contact.html",
-		"oF": 0
 		},
 	"\/de\/contact.pug": {
 		"cOD": 1,
@@ -707,12 +765,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/de\/garden.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/de\/garden.html",
-		"oF": 0
 		},
 	"\/de\/garden.pug": {
 		"cOD": 1,
@@ -746,12 +798,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/de\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/de\/index.html",
-		"oF": 0
-		},
 	"\/de\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -770,12 +816,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/de\/prices.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/de\/prices.html",
-		"oF": 0
-		},
 	"\/de\/prices.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -784,12 +824,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/de\/rooms.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/de\/rooms.html",
-		"oF": 0
-		},
 	"\/de\/rooms.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -797,12 +831,6 @@
 		"oAP": "\/de\/rooms.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/de\/surroundings.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/de\/surroundings.html",
-		"oF": 0
 		},
 	"\/de\/surroundings.pug": {
 		"cOD": 1,
@@ -822,12 +850,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/en\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/en\/contact.html",
-		"oF": 0
-		},
 	"\/en\/contact.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -845,12 +867,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/en\/garden.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/en\/garden.html",
-		"oF": 0
 		},
 	"\/en\/garden.pug": {
 		"cOD": 1,
@@ -884,12 +900,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/en\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/en\/index.html",
-		"oF": 0
-		},
 	"\/en\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -908,12 +918,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/en\/prices.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/en\/prices.html",
-		"oF": 0
-		},
 	"\/en\/prices.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -921,12 +925,6 @@
 		"oAP": "\/en\/prices.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/en\/rooms.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/en\/rooms.html",
-		"oF": 0
 		},
 	"\/en\/rooms.pug": {
 		"cOD": 1,
@@ -936,12 +934,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/en\/surroundings.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/en\/surroundings.html",
-		"oF": 0
-		},
 	"\/en\/surroundings.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -949,12 +941,6 @@
 		"oAP": "\/en\/surroundings.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/fr\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fr\/contact.html",
-		"oF": 0
 		},
 	"\/fr\/contact.pug": {
 		"cOD": 1,
@@ -973,12 +959,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/fr\/garden.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fr\/garden.html",
-		"oF": 0
 		},
 	"\/fr\/garden.pug": {
 		"cOD": 1,
@@ -1012,12 +992,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/fr\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fr\/index.html",
-		"oF": 0
-		},
 	"\/fr\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1036,12 +1010,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/fr\/prices.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fr\/prices.html",
-		"oF": 0
-		},
 	"\/fr\/prices.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1049,12 +1017,6 @@
 		"oAP": "\/fr\/prices.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/fr\/rooms.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fr\/rooms.html",
-		"oF": 0
 		},
 	"\/fr\/rooms.pug": {
 		"cOD": 1,
@@ -1064,12 +1026,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/fr\/surroundings.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fr\/surroundings.html",
-		"oF": 0
-		},
 	"\/fr\/surroundings.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1077,12 +1033,6 @@
 		"oAP": "\/fr\/surroundings.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/garden.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/garden.html",
-		"oF": 0
 		},
 	"\/garden.pug": {
 		"cOD": 1,
@@ -1116,12 +1066,6 @@
 		"oF": 1,
 		"oS": 0
 		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
 	"\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1140,12 +1084,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/prices.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prices.html",
-		"oF": 0
-		},
 	"\/prices.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1154,12 +1092,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/rooms.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/rooms.html",
-		"oF": 0
-		},
 	"\/rooms.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1167,6 +1099,29 @@
 		"oAP": "\/rooms.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/styles.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/surroundings.html": {
 		"ft": 8192,
