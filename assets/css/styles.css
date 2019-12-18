@@ -14,6 +14,9 @@ figcaption {
   font-family: 'Open Sans', sans;
   color: #5a6368; }
 
+figure {
+  margin: 1em 0; }
+
 h1 {
   margin: 0;
   font-family: 'Pinyon Script', cursive;
@@ -550,3 +553,15 @@ footer {
     padding: 10px 0; }
     .flex-wrapper-contact figure img {
       width: 75px; }
+
+.flex-wrapper-contact figcaption {
+  font-size: 15px; }
+  @media (min-width: 950px) {
+    .flex-wrapper-contact figcaption {
+      font-size: 1em; } }
+
+.map.body-padding {
+  padding: 0; }
+
+.home .map.body-padding {
+  padding: 0 20px; }

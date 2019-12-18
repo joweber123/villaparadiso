@@ -509,6 +509,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/img/instagram-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/instagram-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/assets/img/instagram_logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1453,7 +1463,7 @@
 		"oS": 3
 		},
 	"/styles.sass": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,

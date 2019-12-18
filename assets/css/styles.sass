@@ -6,7 +6,6 @@ $footer-color: lighten($black, 30%)
 $compliment-color: #E9F8C3
 
 //###################### global styles###########################
-
 ul
   padding: 0
   margin: 0
@@ -20,7 +19,8 @@ p
 figcaption
   font-family: 'Open Sans', sans
   color: lighten( $black, 30% )
-
+figure
+  margin: 1em 0
 h1
   margin: 0
   font-family: 'Pinyon Script', cursive
@@ -502,7 +502,6 @@ footer
       box-sizing: border-box
 
 //###################### prices page ###########################
-
 .page-wrapper-prices
   display: inline-block
 
@@ -543,10 +542,18 @@ footer
 
 
 //###################### contact page ###########################
-
 .flex-wrapper-contact
   display: block
   figure
     padding: 10px 0
     img
       width: 75px
+.flex-wrapper-contact figcaption
+    font-size: 15px
+    @media (min-width: 950px)
+      font-size: 1em
+
+.map.body-padding
+  padding: 0
+.home .map.body-padding
+  padding: 0 20px

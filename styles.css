@@ -1,3 +1,6 @@
+body {
+  background: blue; }
+
 ul {
   padding: 0;
   margin: 0; }
@@ -19,12 +22,19 @@ h1 {
   font-family: 'Pinyon Script', cursive;
   font-size: 30px;
   color: #2b2f31;
-  padding: 20px 30px 0 20px;
+  padding: 10px 0 0 20px;
   font-weight: 100; }
-  @media (min-width: 950px) {
+  @media (min-width: 1100px) {
     h1 {
       font-size: 45px;
-      padding: 10px 30px 0 30px; } }
+      display: inline-block;
+      padding: 0; } }
+
+h1 img {
+  max-width: 200px; }
+  @media (min-width: 1100px) {
+    h1 img {
+      max-width: 220px; } }
 
 h2, h3 {
   font-family: 'Josefin Slab', sans-serif;
@@ -52,12 +62,8 @@ a {
 
 .logo {
   display: block;
-  background-color: white;
   text-decoration: none; }
   @media (min-width: 950px) {
-    .logo {
-      display: inline-block; } }
-  @media (min-width: 1100px) {
     .logo {
       display: inline-block; } }
 
@@ -72,13 +78,21 @@ a {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
+  @media (min-width: 1100px) {
+    .header {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-align: center;
+              align-items: center;
+      justify-content: space-around;
+      padding-top: 10px; } }
 
 .hamburger-icon {
   display: block;
   cursor: pointer;
   position: fixed;
-  top: 20px;
-  right: 10px;
+  top: 40px;
+  right: 20px;
   z-index: 30; }
   @media (min-width: 1100px) {
     .hamburger-icon {
@@ -125,12 +139,8 @@ a {
   padding-top: 0; }
   @media (min-width: 1100px) {
     .language-picker {
-      display: inline-block;
       background-color: white;
-      position: absolute;
-      right: 30px;
-      padding-top: 20px;
-      top: 0; } }
+      position: static; } }
   .language-picker a {
     text-decoration: none;
     z-index: 1000; }
@@ -154,7 +164,7 @@ a {
   background-color: #F8F8F8;
   position: relative;
   top: -300px; }
-  @media (min-width: 950px) {
+  @media (min-width: 1100px) {
     .main-nav {
       display: inline-block;
       background-color: white;
@@ -163,9 +173,6 @@ a {
     list-style: none;
     display: inline-block;
     padding: 15px 10px; }
-    @media (min-width: 950px) {
-      .main-nav li {
-        border-bottom: 2px solid white; } }
     .main-nav li a {
       text-decoration: none;
       color: #5a6368; }
@@ -178,15 +185,19 @@ a {
 .header-white-fill {
   position: fixed;
   background-color: white;
-  height: 70px;
+  height: 110px;
   width: 100%;
   z-index: 10;
   border-bottom: 1px solid #dee1e3;
-  top: 0; }
+  top: 0;
+  box-shadow: 0 4px 24px 0 rgba(103, 151, 255, 0.1), 0 12px 64px 0 rgba(103, 151, 255, 0.1); }
+  @media (min-width: 950px) {
+    .header-white-fill {
+      height: 117px; } }
 
 .page-wrapper {
   position: relative;
-  top: 70px;
+  top: 110px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -345,10 +356,8 @@ a {
   @media (min-width: 950px) {
     .flex-wrapper {
       display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-          -ms-flex-pack: center;
               justify-content: center;
       width: 100%;
       max-width: 1200px;
@@ -447,11 +456,8 @@ footer {
   font-weight: 100; }
 
 .pages-wrapper {
-  padding: 20px 20px 0 20px;
+  padding: 0 20px 0 20px;
   text-align: center; }
-  @media (min-width: 950px) {
-    .pages-wrapper {
-      padding-top: 0; } }
   .pages-wrapper .pages-hero-wrapper {
     position: relative; }
     @media (min-width: 950px) {
@@ -552,7 +558,7 @@ footer {
       font-size: 30px; }
       @media (min-width: 950px) {
         .page-wrapper-prices td h3 {
-          font-size: inherit; } }
+          font-size: 45px; } }
   .page-wrapper-prices .extra-include-container {
     border-bottom: none; }
     .page-wrapper-prices .extra-include-container figure {
@@ -564,7 +570,7 @@ footer {
         padding-right: 10px; }
         @media (min-width: 400px) {
           .page-wrapper-prices .extra-include-container figure img {
-            display: block; } }
+            display: inline-block; } }
       .page-wrapper-prices .extra-include-container figure figcaption {
         display: inline-block;
         vertical-align: middle; }
